@@ -73,9 +73,8 @@ It uses `std::string`, but unlike higher-level languages, **no garbage collectio
 ### ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square\&logo=openjdk\&logoColor=white)
 
 **Paradigm**: Object-Oriented, Imperative, Platform-Independent
-**Why this implementation**:
-Java emphasizes **object-oriented structure**, even for small utilities. We use a **class-based static method** and a **mutable StringBuilder**, which is idiomatic for string manipulation in Java to avoid performance issues with `+` concatenation.
-Java’s verbosity encourages wrapping utilities in reusable classes, and type safety ensures method robustness.
+
+**Why this implementation**: Java emphasizes **object-oriented structure**, even for small utilities. We use a **class-based static method** and a **mutable StringBuilder**, which is idiomatic for string manipulation in Java to avoid performance issues with `+` concatenation. Java’s verbosity encourages wrapping utilities in reusable classes, and type safety ensures method robustness.
 
 **Best for**: Enterprise apps, Android development, cross-platform systems with strong type safety.
 
@@ -84,8 +83,8 @@ Java’s verbosity encourages wrapping utilities in reusable classes, and type s
 ### ![](https://img.shields.io/badge/Prolog-%230f548c?style=flat-square\&logo=prolog\&logoColor=white)
 
 **Paradigm**: Declarative, Logic-Based
-**Why this implementation**:
-Prolog doesn't loop in the traditional sense—it **recursively declares logical rules** that describe relationships. The implementation is centered around **pattern matching and unification**, building results by recursively traversing the input and appending `(Char, Count)` pairs.
+
+**Why this implementation**: Prolog doesn't loop in the traditional sense—it **recursively declares logical rules** that describe relationships. The implementation is centered around **pattern matching and unification**, building results by recursively traversing the input and appending `(Char, Count)` pairs.
 It’s a great showcase of **declarative programming**: instead of "how to compress", we describe **what compression is**.
 
 **Best for**: Knowledge representation, symbolic AI, rule-based logic systems.
@@ -95,9 +94,8 @@ It’s a great showcase of **declarative programming**: instead of "how to compr
 ### ![](https://img.shields.io/badge/SML-%23a10224?style=flat-square\&logo=sml\&logoColor=white)
 
 **Paradigm**: Functional, Strongly Typed
-**Why this implementation**:
-SML (Standard ML) embraces **immutability** and **recursion**. The implementation is a textbook example of **tail-recursive accumulation**, passing along an updated count and result list.
-SML’s use of **pattern matching** allows concise decomposition of the list (`x::xs`) and conditional branching with no side effects. This aligns with how functional languages encourage expressing computation through **value transformation**, not mutation.
+
+**Why this implementation**:SML (Standard ML) embraces **immutability** and **recursion**. The implementation is a textbook example of **tail-recursive accumulation**, passing along an updated count and result list. SML’s use of **pattern matching** allows concise decomposition of the list (`x::xs`) and conditional branching with no side effects. This aligns with how functional languages encourage expressing computation through **value transformation**, not mutation.
 
 **Best for**: Theoretical computation, type theory, compilers, proof assistants.
 
@@ -106,8 +104,8 @@ SML’s use of **pattern matching** allows concise decomposition of the list (`x
 ### ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square\&logo=python\&logoColor=ffdd54)
 
 **Paradigm**: Multi-paradigm (Imperative, Object-Oriented, Functional)
-**Why this implementation**:
-Python prioritizes **readability and brevity**, so the implementation is clean and linear. It uses a for-loop, a simple counter, and a `list` to collect intermediate results.
+
+**Why this implementation**:Python prioritizes **readability and brevity**, so the implementation is clean and linear. It uses a for-loop, a simple counter, and a `list` to collect intermediate results.
 Python’s dynamic typing and flexible string manipulation make this approach intuitive and fast to write.
 It’s also easy to adapt to a recursive, functional, or even generator-based style, depending on needs.
 
