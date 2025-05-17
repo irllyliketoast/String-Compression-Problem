@@ -110,7 +110,7 @@ Python’s dynamic typing and flexible string manipulation make this approach in
 
 ---
 
-### 🧠 Summary Table
+### Summary Table
 
 | Language   | Paradigm(s)        | Highlights in This Problem                       |
 | ---------- | ------------------ | ------------------------------------------------ |
