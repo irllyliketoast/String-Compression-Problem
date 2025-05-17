@@ -62,9 +62,8 @@ q2 --[a-zA-Z]--> q1 (repeats for next char group)
 ### ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat-square\&logo=c%2B%2B\&logoColor=white)
 
 **Paradigm**: Imperative, Object-Oriented, Low-Level Memory Access
-**Why this implementation**:
-C++ is performance-focused and gives you full control over memory. The string compression function is implemented using a **manual loop and string building** with `+=`, which mimics how memory is appended.
-It uses `std::string`, but unlike higher-level languages, **no garbage collection or built-in dynamic typing** helps with string management—so care is taken with efficiency and data structures.
+
+**Why this implementation**: C++ is performance-focused and gives you full control over memory. The string compression function is implemented using a **manual loop and string building** with `+=`, which mimics how memory is appended. It uses `std::string`, but unlike higher-level languages, **no garbage collection or built-in dynamic typing** helps with string management—so care is taken with efficiency and data structures.
 
 **Best for**: Performance-critical applications, embedded systems, systems programming.
 
@@ -84,8 +83,7 @@ It uses `std::string`, but unlike higher-level languages, **no garbage collectio
 
 **Paradigm**: Declarative, Logic-Based
 
-**Why this implementation**: Prolog doesn't loop in the traditional sense—it **recursively declares logical rules** that describe relationships. The implementation is centered around **pattern matching and unification**, building results by recursively traversing the input and appending `(Char, Count)` pairs.
-It’s a great showcase of **declarative programming**: instead of "how to compress", we describe **what compression is**.
+**Why this implementation**: Prolog doesn't loop in the traditional sense—it **recursively declares logical rules** that describe relationships. The implementation is centered around **pattern matching and unification**, building results by recursively traversing the input and appending `(Char, Count)` pairs. It’s a great showcase of **declarative programming**: instead of "how to compress", we describe **what compression is**.
 
 **Best for**: Knowledge representation, symbolic AI, rule-based logic systems.
 
@@ -106,8 +104,7 @@ It’s a great showcase of **declarative programming**: instead of "how to compr
 **Paradigm**: Multi-paradigm (Imperative, Object-Oriented, Functional)
 
 **Why this implementation**:Python prioritizes **readability and brevity**, so the implementation is clean and linear. It uses a for-loop, a simple counter, and a `list` to collect intermediate results.
-Python’s dynamic typing and flexible string manipulation make this approach intuitive and fast to write.
-It’s also easy to adapt to a recursive, functional, or even generator-based style, depending on needs.
+Python’s dynamic typing and flexible string manipulation make this approach intuitive and fast to write. It’s also easy to adapt to a recursive, functional, or even generator-based style, depending on needs.
 
 **Best for**: Rapid prototyping, scripting, data science, educational examples.
 
